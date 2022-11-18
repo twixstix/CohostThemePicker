@@ -30,6 +30,12 @@
         .bg-longan-300 {
             background-color: rgb(193, 225, 133);
         }
+        .bg-longan {
+            background-color: rgb(193, 225, 133);
+        }
+        .border-longan {
+            border-color: rgb(193, 225, 133);
+        }
         .text-cherry {
             color: rgb(38 128 112);
         }
@@ -62,6 +68,12 @@
         }
         .bg-longan-300 {
             background-color: rgb(155, 170, 193);
+        }
+        .bg-longan {
+            background-color: rgb(155, 170, 193);
+        }
+        .border-longan {
+            border-color: rgb(155, 170, 193);
         }
         .text-cherry {
             color: rgb(54 70 93);
