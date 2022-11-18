@@ -1,0 +1,73 @@
+/* ==UserStyle==
+@name           11/17/2022, 11:03:40 PM
+@namespace      github.com/twixstix/CohostThemePicker
+@version        1.0.0
+@description    Theme selector for Cohost
+@author         twixstixx
+@preprocessor stylus
+@var select theme "Theme" {
+"Default": "default",
+"Cool*": "cool",
+"Tumblr": "tumblr"
+}
+==/UserStyle== */
+@-moz-document domain("cohost.org") {
+    if theme==cool {
+        :root {
+            --color-notWhite: 245 254 255;
+            --color-cherry: 38 128 112;
+            --color-mango: 200 255 93;
+            --color-strawberry: 141 191 75;
+            --color-longan: 193 225 133;
+            --color-foreground-200: 148 232 191;
+        }
+        .bg-notWhite {
+            background-color: rgb(245 254 255);
+        }
+        .bg-longan-300 {
+            background-color: rgb(193, 225, 133);
+        }
+        .text-cherry {
+            color: rgb(38 128 112);
+        }
+        select {
+            background-color: rgb(245 254 255);
+        }
+        [type=text], [type=email], [type=url], [type=password], [type=number], [type=date], [type=datetime-local], [type=month], [type=search], [type=tel], [type=time], [type=week], [multiple], textarea, select {
+            background-color: rgb(245 254 255);
+        }
+        .gQnPtz {
+            background-color: rgb(193, 225, 133);
+        }
+    }
+    if theme==tumblr {
+        :root {
+            --color-background: 54 70 93;
+            --color-sidebar-bg: 96 116 146;
+            --color-notWhite: 245 254 255;
+            --color-cherry: 67 86 115;
+            --color-longan: 155 170 193;
+            --color-mango: 155 170 193;
+            --color-strawberry: 96 116 146;
+            --color-foreground-200: 96 116 146;
+        }
+        .bg-notWhite {
+            background-color: rgb(255 255 255);
+        }
+        .bg-longan-300 {
+            background-color: rgb(155, 170, 193);
+        }
+        .text-cherry {
+            color: rgb(54 70 93);
+        }
+        select {
+            background-color: rgb(155, 170, 193);
+        }
+        [type=text], [type=email], [type=url], [type=password], [type=number], [type=date], [type=datetime-local], [type=month], [type=search], [type=tel], [type=time], [type=week], [multiple], textarea, select {
+            background-color: rgb(245 254 255);
+        }
+        .gQnPtz {
+            background-color: rgb(155, 170, 193);
+        }
+    }
+}
