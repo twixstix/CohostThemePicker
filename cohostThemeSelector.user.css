@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           11/17/2022, 11:03:40 PM
-@namespace      github.com/twixstix/CohostThemePicker
+@namespace      github.com/openstyles/stylus
 @version        1.0.0
 @description    Theme selector for Cohost
 @author         twixstixx
@@ -20,6 +20,9 @@
             --color-strawberry: 141 191 75;
             --color-longan: 193 225 133;
             --color-foreground-200: 148 232 191;
+            --color-foreground-300: 95 201 150;
+            --color-foreground-400: 30 90 79;
+            --color-foreground-600: 25 63 56;
         }
         .bg-notWhite {
             background-color: rgb(245 254 255);
@@ -50,6 +53,9 @@
             --color-mango: 155 170 193;
             --color-strawberry: 96 116 146;
             --color-foreground-200: 96 116 146;
+            --color-foreground-300: 96 116 146;
+            --color-foreground-400: 96 116 146;
+            --color-foreground-600: 96 116 146;
         }
         .bg-notWhite {
             background-color: rgb(255 255 255);
